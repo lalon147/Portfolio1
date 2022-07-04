@@ -51,3 +51,26 @@ h1{
     background-repeat: no-repeat;
     background-position-x: right;
 }
+.box{
+    box-shadow: 10px 10px 20px gray;
+    width:40%;
+    margin:0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform .5s;
+
+    border-left:7px solid transparent; 
+    border-image:linear-gradient(orange,red);
+    border-image-slice: 1;
+  
+}
+.experiences{
+    background-image: url("/images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+.box:hover{
+    transform: scale(1.2);
+}
